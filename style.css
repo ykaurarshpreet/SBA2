@@ -1,0 +1,50 @@
+body {
+background-color: rgb(255, 255, 255);
+}
+
+header {
+     background-color: bisque;
+     border: 3px solid;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: 1fr;
+gap: 50px;
+background-color: rgb(173, 211, 211);
+text-align:center;
+width:1000px;
+height: 1000px;
+}
+
+.serviceDiv{
+    background-color: rgb(221, 240, 230);
+    padding: 20px;
+    border-radius: 50px;
+    text-align: justify;
+}
+
+@media(min-width:768px) {
+    .servicesDiv{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+   width: 90%;
+   max-width: 900px;
+   margin: 0 auto;
+   display: flex;
+   list-style: none;
+   justify-content:space-between;
+   align-items: center;
+}
+
